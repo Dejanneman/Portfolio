@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{  
+    flex-direction: column;
+        padding: 20px;
+
+}
+
+
+header{
+    width:100vw;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+
+
+
+
+
+
+

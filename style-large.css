@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+main {
+    flex: 0 0 70vw;
+}
+aside {
+    flex: 0 0 25vw;
+}
+
+body{
+        
+/*        flex-direction: column;*/
+        padding-bottom: 20px;
+/*        padding: 20px;*/
+        width:100vw;
+}
+
+header{
+        width:100vw;
+}
