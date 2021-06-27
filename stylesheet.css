@@ -15,13 +15,14 @@ body{
         overflow-x: hidden;
 font-family: 'Open Sans', sans-serif;
   margin: 0;
-	background-color:#ecf0f1;
   text-align: center;
       position:absolute;
     display:flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-  background-color: #3B9DCE;
+  background-color: darkslategrey;
+    background-image: url(back.png);
+   background-size:cover;
 }
  a:hover{
     color: aqua;
@@ -59,13 +60,14 @@ width: 100vw;
     background-position: center;
     height:250px;
     position: relative;
-    background-image: url(banner.png);
-    background-size:contain;
+    background-image: url(banneruni.png);
+    background-size:cover;
 }
 
 .splash h1{
 height: 100px;
 font-family: 'Open Sans', sans-serif;
+font-display: auto;
 position: relative;
 top: 80px;
 font-size: 80px;
@@ -83,7 +85,7 @@ top: 0;
     
 }
 .menu{
-    background-color: skyblue;
+    background-color: midnightblue;
     text-align: center;
 }
 
@@ -101,14 +103,14 @@ top: 0;
 
 
 aside>*, main{
-    background-color: white;
+    background-color: rgba(248,248,255, 0.9);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     color: black;
     
 }
-main.backrground-color{
+main.background-color{
     opacity: 0.1;
 }
 
@@ -133,11 +135,13 @@ aside h2,aside p, aside a, main h2, main p{
 article > h2{
     margin: 0 10px;
     text-transform: uppercase;
-    font-size: 20px !important;
+    font-size: 25px !important;
+    padding: 10 10 10px;
 }
 
 main > article{
-    margin-bottom:180px;
+    margin-bottom:150px;
+    margin-top: 50px;
 }
 
 article > figure{
@@ -149,6 +153,8 @@ article > figure{
 
 .left{
     float: left;
+    width:500px;
+    margin:0 50px;
 }
 article > figure > img {
     width:100%;
@@ -181,4 +187,30 @@ aside article img{
 }
 aside p{
     text-align: center
+}
+footer p{
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(0,0,255);
+    bottom: 0;
+    display: block;
+    bottom: 0;
+}
+aside nav p{
+    text-align: left;
+    line-height: 50px;
+    left: 10px;
+}
+aside nav p a{
+    text-align: left;
+    padding: 0px;
+    text-decoration-line: underline;
+    color: mediumpurple;
+}
+footer p{
+position:relative;
+    top:10vh;
 }
