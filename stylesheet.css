@@ -62,6 +62,10 @@ width: 100vw;
     position: relative;
     background-image: url(banneruni.png);
     background-size:cover;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
 }
 
 .splash h1{
@@ -74,7 +78,16 @@ font-size: 80px;
 background-color: transparent;
 line-height: 80px;
 }
-
+.splash h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    line-height: 20px;
+    color: white;
+}
 
 .splash img{
 position: absolute;
@@ -108,6 +121,7 @@ aside>*, main{
     margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     color: black;
+    border-radius: 25px;
     
 }
 main.background-color{
@@ -119,6 +133,8 @@ main.background-color{
 
 aside h1, main h1{
     margin-bottom: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 aside a{
@@ -140,6 +156,7 @@ article > h2{
 }
 
 main > article{
+    
     margin-bottom:150px;
     margin-top: 50px;
 }
@@ -194,7 +211,7 @@ footer p{
     text-align: center;
     color: white;
     font-weight: 500;
-    background-color: rgb(0,0,255);
+    background-color: rgb(25,25,112);
     bottom: 0;
     display: block;
     bottom: 0;
